@@ -17,10 +17,10 @@ public class StudentServiceImpl implements StudentService{
     public Student savesStudent(Student student) {
         return studentRepository.save(student);
     }
-    @Override
-    public List<Student> getAllStudents() {
-        return studentRepository.findAll();
-    }
+    // @Override
+    // public List<Student> getAllStudents() {
+    //     return studentRepository.findAll();
+    // }
 
     
 }
