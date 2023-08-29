@@ -1,6 +1,6 @@
 
 import './App.css';
-import Appbar from './components/Appbar';
+// import Appbar from './components/Appbar';
 import Student from './components/Student';
 
 function App() {
