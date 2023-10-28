@@ -11,12 +11,14 @@ import com.studentdata.stud.repository.StudentRepository;
 @Service
 public class StudentServiceImpl implements StudentService{
 
+    
+
     @Autowired
     private StudentRepository studentRepository;
-    @Override
-    public Student savesStudent(Student student) {
-        return studentRepository.save(student);
-    }
+    // @Override
+    // public Student savesStudent(Student student) {
+    //     return studentRepository.save(student);
+    // }
     @Override
     public List<Student> getAllStudents() {
         return studentRepository.findAll();
